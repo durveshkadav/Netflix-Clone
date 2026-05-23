@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(20, 20, 20);
+}
+.mainbody{
+    width: 100%;
+    height:100vh;
+    position:relative;
+    background-image: url(Netflix\ background.png);
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    color: aliceblue;
+}
+
+ .mainbody header{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+   /* border-style: dashed;
+    border: 10px, 10px, white;*/
+
+ }
+
+
+ .mainbody header img{
+    width:200px;
+}
+
+
+.info{
+    display:block;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /* border-style: dashed;
+    border: 10px, 10px, white;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan{
+    display:flex;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    /*border-style:groove;
+    background-color:aliceblue ;
+    border-radius: 10px;*/
+
+    --r: 30px; /* cut size */
+  height: 350px;
+  aspect-ratio: 1.2;
+  border-radius: 20px;
+  background: #e2e1e0;
+  mask: radial-gradient(var(--r) at 50% var(--r),#0000 calc(100% - 1px),#000) 0 calc(-1*var(--r));
+    color: black;
+    width: 12%;
+    margin: 10px;
+    padding: 30px;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+
+.card h5{
+    margin-bottom: 20px;
+}
+
+.card h1{
+    margin-bottom: 15px;
+}
+.card p{
+    margin-top: 15px;
+}
+
+.card button{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+    height: 25px;
+    font-family:'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 8px;
+    color:white;
+    background-color:rgb(245, 37, 37);
+}
+
